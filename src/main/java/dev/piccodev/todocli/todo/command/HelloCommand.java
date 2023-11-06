@@ -1,14 +1,7 @@
 package dev.piccodev.todocli.todo.command;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.shell.Availability;
-import org.springframework.shell.AvailabilityProvider;
-import org.springframework.shell.command.CommandHandlingResult;
 import org.springframework.shell.command.annotation.Command;
 import org.springframework.shell.command.annotation.CommandAvailability;
-import org.springframework.shell.command.annotation.ExceptionResolver;
-
-import java.time.LocalDate;
 
 /* Tudo o que ficar no "@Command" externo será herdado pelos "@Command" internos, a não ser que ele seja sobrescrito.*/
 @Command(group = "Introduction")
